@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <h1> Etch-a-Sketch</h1>
+    <div id="link-wrapper"> <i class="fab fa-github"></i><a href="#" id="github-link">See the code in github</a></div>
+    <div class="main-container">
+        <section class = "settings-container">
+            <button class="settings-buttons" id="Black">Black</button>
+            <button class="settings-buttons" id="Rainbow">Rainbow</button>
+            <button class="settings-buttons" id="Eraser">Eraser</button>
+            <button class="settings-buttons" id="Clear">Clear</button>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="50" value="10" class="slider" id="myRange">
+                <p>Size:  <span id="rangeText">10 x 10</span></p>
+            </div>
+        </section>
+       <div id="grid-container-wrap"><div class="grid-container"></div></div>
+ 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
